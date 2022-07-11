@@ -1,4 +1,5 @@
 import { useIsTouchDevice1, useIsTouchDevice2 } from '@/hooks';
+import morseDecoder from '@/morseDecoder';
 import { useEffect, useRef, useState } from 'react';
 
 const clearTimer = (timerRef: NodeJS.Timeout) => clearInterval(timerRef);
@@ -28,6 +29,11 @@ function Telegraph() {
   const emptyGraph = useRef<string>(INITIAL_REF);
   const isTouchDevice1 = useIsTouchDevice1();
   const isTouchDevice2 = useIsTouchDevice2();
+
+  // const test = '....*.*.-..*.-..*---/.--*---*.-.*.-..*-..';
+  // const text = morseDecoder(test);
+
+  // console.log('text', text);
 
   const clearDebounceTimer = () => {
     if (debounceTimerRef.current) {
@@ -161,6 +167,9 @@ function Telegraph() {
 
   const handleDecode = () => {
     console.log('start decode!');
+    const result = morseDecoder(graph.join(''));
+    console.log('result', result);
+    alert(result);
   };
 
   useEffect(() => {
