@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.89f0ad99.css",
-    "main.js": "/static/js/main.449563ab.js",
-    "static/js/787.33a88c8a.chunk.js": "/static/js/787.33a88c8a.chunk.js",
-    "index.html": "/index.html",
-    "main.89f0ad99.css.map": "/static/css/main.89f0ad99.css.map",
-    "main.449563ab.js.map": "/static/js/main.449563ab.js.map",
-    "787.33a88c8a.chunk.js.map": "/static/js/787.33a88c8a.chunk.js.map"
+    "main.css": "/telegraph-key/static/css/main.89f0ad99.css",
+    "main.js": "/telegraph-key/static/js/main.50ee396d.js",
+    "static/js/787.33a88c8a.chunk.js": "/telegraph-key/static/js/787.33a88c8a.chunk.js",
+    "index.html": "/telegraph-key/index.html",
+    "main.89f0ad99.css.map": "/telegraph-key/static/css/main.89f0ad99.css.map",
+    "main.50ee396d.js.map": "/telegraph-key/static/js/main.50ee396d.js.map",
+    "787.33a88c8a.chunk.js.map": "/telegraph-key/static/js/787.33a88c8a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89f0ad99.css",
-    "static/js/main.449563ab.js"
+    "static/js/main.50ee396d.js"
   ]
 }
