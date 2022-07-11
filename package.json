@@ -2,6 +2,7 @@
   "name": "telegraph-key",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kazettique.github.io/telegraph-key",
   "dependencies": {
     "@craco/craco": "^6.4.5",
     "@testing-library/jest-dom": "^5.14.1",
