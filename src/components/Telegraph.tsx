@@ -126,12 +126,19 @@ function Telegraph() {
   const handleTouchStart = () => {
     console.log('[Event] touch start');
     createNewGraph();
+
+    finishEmptyGraph();
+    clearIdleTimer();
+    resetIdleCount();
   };
 
   const handleTouchEnd = () => {
     console.log('[Event] touch end');
     finishNewGraph();
+    clearDebounceTimer();
     resetDebounceCount();
+
+    createEmptyGraph();
   };
 
   // const handleMouseLeave = () => {
