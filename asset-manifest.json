@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/telegraph-key/static/css/main.89f0ad99.css",
-    "main.js": "/telegraph-key/static/js/main.5b6beb08.js",
+    "main.js": "/telegraph-key/static/js/main.e72bbac4.js",
     "static/js/787.33a88c8a.chunk.js": "/telegraph-key/static/js/787.33a88c8a.chunk.js",
     "index.html": "/telegraph-key/index.html",
     "main.89f0ad99.css.map": "/telegraph-key/static/css/main.89f0ad99.css.map",
-    "main.5b6beb08.js.map": "/telegraph-key/static/js/main.5b6beb08.js.map",
+    "main.e72bbac4.js.map": "/telegraph-key/static/js/main.e72bbac4.js.map",
     "787.33a88c8a.chunk.js.map": "/telegraph-key/static/js/787.33a88c8a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89f0ad99.css",
-    "static/js/main.5b6beb08.js"
+    "static/js/main.e72bbac4.js"
   ]
 }
