@@ -1,5 +1,6 @@
 import { morseMapping } from './morse.mapping';
 
+// ref: https://stackoverflow.com/questions/43726344/js-decoding-morse-code
 export default function morseDecoder(morseCode: string): string {
   const messageConverted: string[] = [];
 
